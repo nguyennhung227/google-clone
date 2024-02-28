@@ -11,8 +11,8 @@ const nextConfig = {
   },
 
   env: {
-    API_KEY: "",
-    TOKEN: "",
+    API_KEY: "AIzaSyDpkEuzh7_jDAfpL1Q_TsHTQ8Kbc14Jlbc",
+    CX: "a1437d969c31b47f6",
   },
 };
 
