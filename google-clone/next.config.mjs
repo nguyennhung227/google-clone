@@ -9,6 +9,11 @@ const nextConfig = {
       },
     ],
   },
+
+  env: {
+    API_KEY: "",
+    TOKEN: "",
+  },
 };
 
 export default nextConfig;

@@ -1,5 +1,4 @@
 "use client";
-import { Router } from "next/router";
 import { useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsFillMicFill } from "react-icons/bs";
