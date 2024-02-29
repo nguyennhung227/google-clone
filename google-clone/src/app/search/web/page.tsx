@@ -13,6 +13,7 @@ export default async function WebSearchPage({ searchParams }: Props) {
   if (!response.ok) throw new Error("Something went wrong");
   const data = await response.json();
   const results = data.items;
+
   if (!results) {
     return (
       <div className="flex flex-col justify-center items-center pt-10">
