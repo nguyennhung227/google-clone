@@ -4,7 +4,7 @@ import { CountryLookup } from "./CountryLookup";
 
 export function Footer() {
   return (
-    <footer className="absolute bottom-0 text-sm text-gray-500 bg-[#f2f2f2] w-full ">
+    <footer className="text-sm text-gray-500 bg-[#f2f2f2] w-full mt-24">
       <div className="border-b px-8 py-3">
         <CountryLookup />
       </div>
