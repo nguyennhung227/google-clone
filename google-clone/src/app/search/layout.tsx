@@ -6,9 +6,9 @@ export default function layout({
   children: React.ReactNode;
 }>) {
   return (
-    <div>
+    <div className="min-h-screen">
       <SearchHeader />
-      {children}
+      <div className="flex py-10 justify-start w-full">{children}</div>
     </div>
   );
 }

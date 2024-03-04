@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { TbGridDots } from "react-icons/tb";
 import { CountryLookup } from "./CountryLookup";
 
 export function Footer() {
