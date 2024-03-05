@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PaginationButtons from "./PaginationButtons";
 
 type SearchItem = {
   image: { contextLink: string };
@@ -45,6 +46,9 @@ export default function ImageSearchResults({
             </div>
           </div>
         ))}
+      </div>
+      <div className="ml-16">
+        <PaginationButtons />
       </div>
     </div>
   );
